@@ -606,6 +606,8 @@
 .HWW {
   margin-top: 105px;
   background-color: black;
+  width: 1440px;
+  height: 2112px;
 }
 .HWW_first {
   position: relative;
@@ -694,7 +696,7 @@
   flex-direction: column;
   height: 1255px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .HWW_second_btn {
   width: 170px;
@@ -739,15 +741,78 @@
   line-height: 64px;
 }
 .HWW_second_recipes {
-  background: white;
   display: flex;
   justify-content: space-between;
   width: 1170px;
 }
 .HWW_second_recipes_big {
-  background: blue;
+  background: white;
   width: 570px;
   height: 736px;
+}
+.HWW_second_recipes_big_icon {
+  background: url("./delicious_bread.svg");
+  width: 570px;
+  height: 496px;
+}
+.HWW_second_recipes_big_txt {
+  width: 522px;
+  padding-left: 48px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  position: relative;
+}
+.HWW_second_recipes_big_txt_description {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 322px;
+  height: 68px;
+}
+.HWW_second_recipes_big_txt_title {
+  color: #171B1B;
+  font-family: Ultra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.HWW_second_recipes_big_txt_name {
+  color: #171B1B;
+  padding-top: 20px;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.HWW_second_recipes_big_txt_time {
+  position: absolute;
+  color: #171B1B;
+  text-align: right;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  bottom: 43px;
+  right: 48px;
+  display: flex;
+}
+.HWW_second_recipes_big_txt_time_clock {
+  background: url("./clock.svg");
+  width: 24px;
+  height: 24px;
+  margin-right: 11px;
+  margin-top: 4px;
 }
 .HWW_second_recipes_other {
   display: flex;
@@ -761,9 +826,60 @@
   align-items: space-between;
 }
 .HWW_second_recipes_other_row_elem {
-  background: orange;
-  border-color: black;
-  border: solid 2px;
+  background: white;
   width: 270px;
   height: 352px;
+}
+.HWW_second_recipes_other_row_elem_icon {
+  width: 270px;
+  height: 208px;
+}
+.HWW_second_recipes_other_row_elem_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  position: relative;
+  width: 238px;
+  height: 144px;
+  padding-left: 32px;
+}
+.HWW_second_recipes_other_row_elem_txt_name {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.HWW_second_recipes_other_row_elem_txt_title {
+  color: #171B1B;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 206px;
+  height: 61px;
+}
+.HWW_second_recipes_other_row_elem_txt_time {
+  position: absolute;
+  display: flex;
+  color: #171B1B;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  right: 32px;
+  top: 11px;
+}
+.HWW_second_recipes_other_row_elem_txt_time_clock {
+  background: url("./clock.svg");
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  margin-top: 9px;
 }/*# sourceMappingURL=coffee.css.map */
