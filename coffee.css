@@ -608,6 +608,31 @@
   background-color: black;
   width: 1440px;
   height: 2112px;
+  position: relative;
+}
+.HWW_SHAPE {
+  position: absolute;
+  width: 190px;
+  height: 212px;
+  background: url("./Shape_HWW_1.svg");
+  right: 0px;
+  bottom: 1108.1px;
+}
+.HWW_SHAPE_COMBINED {
+  position: absolute;
+  background: url("./CombinedShape_HWW-1.svg");
+  width: 85px;
+  height: 134px;
+  right: 0px;
+  bottom: 10px;
+}
+.HWW_SHAPE_2 {
+  position: absolute;
+  width: 145px;
+  height: 130px;
+  background: url("./Shape_HWW_2.svg");
+  left: 0px;
+  bottom: 0px;
 }
 .HWW_first {
   position: relative;
@@ -882,4 +907,123 @@
   height: 12px;
   margin-right: 5px;
   margin-top: 9px;
+}
+
+.whiteBlock {
+  width: 1440px;
+  height: 1049px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.MOPB {
+  margin-top: 217px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+.MOPB_txtBlock {
+  display: flex;
+  flex-direction: column;
+  height: 624px;
+  justify-content: space-around;
+  align-items: center;
+}
+.MOPB_txtBlock_title_name {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 120px;
+  height: 32px;
+}
+.MOPB_txtBlock_title_txt {
+  color: #171B1B;
+  font-family: Ultra;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  width: 570px;
+  height: 192px;
+}
+.MOPB_txtBlock_list_title {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.MOPB_txtBlock_list_list {
+  display: flex;
+  position: relative;
+}
+.MOPB_txtBlock_list_list_arrows {
+  position: absolute;
+  left: -100px;
+}
+.MOPB_txtBlock_list_list_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 274px;
+}
+.MOPB_txtBlock_list_list_content_name {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.MOPB_txtBlock_list_list_content_txt {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 370px;
+  height: 72px;
+}
+.MOPB_txtBlock_list_list_content_subname {
+  color: #171B1B;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.MOPB_avatarBlock {
+  width: 645px;
+  height: 624px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.MOPB_avatarBlock_shape {
+  position: absolute;
+  width: 495px;
+  height: 547px;
+  background: url("./avatarPng/shape.svg");
+}
+.MOPB_avatarBlock_shapeLeft {
+  position: absolute;
+}
+.MOPB_avatarBlock_shapeTop {
+  position: absolute;
+}
+.MOPB_avatarBlock_avatar {
+  width: 470px;
+  height: 624px;
+  background: url("./avatarPng/1.svg");
 }/*# sourceMappingURL=coffee.css.map */
