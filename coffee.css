@@ -1015,15 +1015,109 @@
   width: 495px;
   height: 547px;
   background: url("./avatarPng/shape.svg");
+  bottom: -40px;
+  left: 32px;
 }
 .MOPB_avatarBlock_shapeLeft {
   position: absolute;
+  background: url("./avatarPng/CombinedShape.svg");
+  width: 154px;
+  height: 134px;
+  left: 5px;
+  bottom: 340px;
 }
 .MOPB_avatarBlock_shapeTop {
   position: absolute;
+  top: -30px;
+  width: 278px;
+  height: 211px;
+  background: url("./avatarPng/ShapeTop.svg");
 }
 .MOPB_avatarBlock_avatar {
   width: 470px;
   height: 624px;
   background: url("./avatarPng/1.svg");
+  z-index: 100;
+}
+
+.feedback_title {
+  margin-top: 233px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 140px;
+  align-items: center;
+}
+.feedback_title_1 {
+  color: #171B1B;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.feedback_title_2 {
+  color: #171B1B;
+  text-align: center;
+  font-family: Ultra;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  height: 128px;
+  width: 617px;
+}
+.feedback_base {
+  margin-top: 69px;
+}
+.feedback_base_elem {
+  width: 384px;
+  height: 368px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.feedback_base_elem_avatar {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background: url("./images/avatar.svg");
+  right: 0px;
+  top: 0px;
+}
+.feedback_base_elem_stars {
+  width: 120px;
+  height: 24px;
+  background: url("./images/stars.svg");
+}
+.feedback_base_elem_title {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 89px;
+  height: 64px;
+}
+.feedback_base_elem_text {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.contactUs {
+  margin-top: 203px;
+  height: 837px;
+}
+.contactUs_imageBox {
+  width: 461px;
+  height: 691px;
 }/*# sourceMappingURL=coffee.css.map */
