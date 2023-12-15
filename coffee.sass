@@ -1004,12 +1004,231 @@
                 line-height: 32px
 .contactUs
     margin-top: 203px
+    margin-bottom: 146px
     height: 837px
+    display: flex
+    justify-content: space-around
+    align-items: center
     &_imageBox
         width: 461px
         height: 691px
+        position: relative
+        &_img
+            width: 461px
+            height: 691px
+            background: url("./images/contact/Bread.svg")
+        &_shape
+            &_background
+                position: absolute
+                width: 497px
+                height: 547px
+                background: url("./images/contact/shapes/background.svg")
+                bottom: -45px
+                right: -32px
+                z-index: -1
+            &_top
+                position: absolute
+                width: 278px
+                height: 211px
+                background: url("./images/contact/shapes/top.svg")
+                top: -20px
+                left: 140px
+                z-index: -1
+            &_right
+                position: absolute
+                width: 146px
+                height: 134px
+                background: url("./images/contact/shapes/right.svg")
+                right: -105px
+                top: 165px
+                z-index: -1
     &_contentBox
+        height: 691px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
         &_text
             &_title
-                
+                color: #171B1B
+                font-family: Oswald
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                letter-spacing: 3px
+                text-transform: uppercase
             &_subtitle
+                color: #171B1B
+                font-family: Ultra
+                font-size: 56px
+                font-style: normal
+                font-weight: 400
+                line-height: 64px
+                height: 128px
+                width: 287px
+        &_contact
+            display: flex
+            width: 241px
+            height: 174px
+            &_container
+                display: flex
+                width: 547px
+                justify-content: space-around
+            &_imgBox
+                width: 100px
+                height: 174px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                &_img
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    background: url("./images/contact/icon.svg")
+                    width: 48px
+                    height: 48px
+                    &_icon
+                        width: 16px
+                        height: 24px
+                        background: url("./images/contact/geo/shape.svg")
+                    &_icon2
+                        width: 16px
+                        height: 24px
+                        background: url("./images/contact/phone/shape.svg")
+
+            &_text
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                &_title
+                    color: #171B1B
+                    font-family: Oswald
+                    font-size: 24px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 32px
+                &_subtitle
+                    color: rgba(51, 51, 51, 0.50)
+                    font-family: DM Sans
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 32px
+                    width: 150px
+                    height: 64px
+                &_number
+                    color: #171B1B
+                    font-family: Oswald
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 32px
+                    letter-spacing: 3px
+                    text-transform: uppercase
+        &_button
+            width: 170px
+            height: 48px
+            border: 2px solid gray
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-left: 100px
+            &_txt
+                color: #171B1B
+                text-align: center
+                font-family: Oswald
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                text-transform: uppercase
+.footer
+    width: 1440px
+    height: 432px
+    background: black
+    &_base
+        height: 320px
+        width: 100%
+        display: flex
+        justify-content: space-around
+        align-items: center
+        position: relative
+        &_logo
+            color: #FFF
+            font-family: Ultra
+            font-size: 40px
+            font-style: normal
+            font-weight: 400
+            line-height: 48px
+            height: 184px
+        &_menu
+
+            &_title
+                color: #FFF
+                font-family: Oswald
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                letter-spacing: 3px
+                text-transform: uppercase
+            &_menu
+                color: #FFF
+                font-family: DM Sans
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                width: 61px
+                height: 128px
+                margin-top: 18px
+
+        &_service
+
+            &_title
+                color: #FFF
+                font-family: Oswald
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                letter-spacing: 3px
+                text-transform: uppercase
+
+            &_menu
+                color: #FFF
+                font-family: DM Sans
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                width: 76px
+                height: 126px
+                margin-top: 18px
+
+        &_social
+            height: 160px
+            width: 160px
+
+            &_title
+                color: #FFF
+                font-family: Oswald
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 32px
+                letter-spacing: 3px
+                text-transform: uppercase
+
+            &_links
+                width: 160px
+                height: 48px
+                background: url("./images/contact/social/social.svg")
+                margin-top: 18px
+        &_shape
+            position: absolute
+            width: 50px
+            height: 134px
+            background: url("./images/contact/social/shapes/1.svg")
+            right: 0px
+            top: 40px
